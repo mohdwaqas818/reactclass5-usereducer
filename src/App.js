@@ -1,24 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import GrandParent from './GrandParent';
+import Parent from './Parent';
+import Child from './Child';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="mainDiv">
+    
+      <h1 className="mainTitle">React Class5 Assignment - useReducer</h1>
+
+      <div className="grandParent">
+        <GrandParent />
+      </div>
+    
+      <div className="parent">
+        <Parent />
+      </div>
+
+      <div className="child">
+        <Child />
+      </div>
+    
     </div>
   );
 }
