@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="mainDiv">
     
-      <h1 className="mainTitle">React Class5 Assignment - useReducer reducer</h1>
+      <h1 className="mainTitle">React Class5 Assignment - useReducer</h1>
 
       <div className="grandParent">
         <GrandParent />
